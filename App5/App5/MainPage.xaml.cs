@@ -42,6 +42,7 @@ namespace App5
                 answerss.Text = $"Правильно: {verity++}";
                 await Task.Delay(500);
                 scores.Text = $"Твои очки: {score += 10}";
+                TbNumber.Text = "";
             }
             else
             {
@@ -51,6 +52,7 @@ namespace App5
                 not_answer.Text = $"Неправильно: {no_verity++}";
                 await Task.Delay(500);
                 scores.Text = $"Твои очки: {score -= 10}";
+                TbNumber.Text = "";
             }
 
             int a = rand.Next(1, 10);
