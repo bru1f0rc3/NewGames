@@ -25,11 +25,11 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-_nugetassetstimestamp=638412779167477012
+_nugetassetstimestamp=638413511024334103
 typemapkind=strings-asm
 androidsupportedabis=arm64-v8a
 armeabi-v7a
 x86
 x86_64
 androidmanifestplaceholders=
-projectfullpath=c:\users\systemx\source\repos\app5\app5\app5.android\app5.android.csproj
+projectfullpath=c:\users\systemx\source\repos\newgames\app5\app5.android\app5.android.csproj

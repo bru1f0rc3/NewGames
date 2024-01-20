@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M5d2qN3Ai8P5IU8YgbQH30/qD4nIYSOtVytgcxkJWXjq0MYfzcAszJ3Zh/7tP6bYxuRlT0tBU5I9W6x/c/+wcw==",
+  "dgSpecHash": "w3vvC8xy3qunxVcsgVLFtDLH+c1D7n5nT7foGLv+O99wKKpO5fCcsV7AG98OaOpPewg1+uPBSTsX5bOAXLumMA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\SystemX\\source\\repos\\App5\\App5\\App5\\App5.csproj",
+  "projectFilePath": "C:\\Users\\SystemX\\Source\\Repos\\NewGames\\App5\\App5\\App5.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SystemX\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\SystemX\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",

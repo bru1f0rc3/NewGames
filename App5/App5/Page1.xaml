@@ -6,6 +6,7 @@
     <Grid Background="DarkGreen"
           Opacity="0.75">
         <Label Text="Вы ответили правильно!"
+               x:Name="label"
                FontSize="30"
                HorizontalOptions="Center"
                TextColor="LightGreen"

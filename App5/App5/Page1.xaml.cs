@@ -12,9 +12,10 @@ namespace App5
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Page1 : ContentPage
     {
-        public Page1()
+        public Page1(int answer)
         {
             InitializeComponent();
+            label.Text = $"Вы ответили правильно: {answer}";
         }
     }
 }

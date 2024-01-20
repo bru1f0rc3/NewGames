@@ -4,7 +4,8 @@
              x:Class="App5.Page2">
     <Grid Background="DarkRed"
           Opacity="0.75">
-        <Label Text="Вы ответили неправильно!"
+        <Label Text="Вы ответили неправильно:"
+               x:Name="label"
                FontSize="30"
                HorizontalOptions="Center"
                TextColor="Red"

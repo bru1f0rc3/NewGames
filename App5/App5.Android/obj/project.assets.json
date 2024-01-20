@@ -3414,11 +3414,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SystemX\\source\\repos\\App5\\App5\\App5.Android\\App5.Android.csproj",
+      "projectUniqueName": "C:\\Users\\SystemX\\Source\\Repos\\NewGames\\App5\\App5.Android\\App5.Android.csproj",
       "projectName": "App5.Android",
-      "projectPath": "C:\\Users\\SystemX\\source\\repos\\App5\\App5\\App5.Android\\App5.Android.csproj",
+      "projectPath": "C:\\Users\\SystemX\\Source\\Repos\\NewGames\\App5\\App5.Android\\App5.Android.csproj",
       "packagesPath": "C:\\Users\\SystemX\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SystemX\\source\\repos\\App5\\App5\\App5.Android\\obj\\",
+      "outputPath": "C:\\Users\\SystemX\\Source\\Repos\\NewGames\\App5\\App5.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3439,8 +3439,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "C:\\Users\\SystemX\\source\\repos\\App5\\App5\\App5\\App5.csproj": {
-              "projectPath": "C:\\Users\\SystemX\\source\\repos\\App5\\App5\\App5\\App5.csproj"
+            "C:\\Users\\SystemX\\Source\\Repos\\NewGames\\App5\\App5\\App5.csproj": {
+              "projectPath": "C:\\Users\\SystemX\\Source\\Repos\\NewGames\\App5\\App5\\App5.csproj"
             }
           }
         }

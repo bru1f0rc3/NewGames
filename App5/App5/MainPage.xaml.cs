@@ -33,10 +33,10 @@ namespace App5
         }
 
         private async void Button_Clicked(object sender, EventArgs e)
-        {
+            {
             if (TbNumber.Text == answer.ToString())
             {
-                await Navigation.PushModalAsync(new Page1());
+                await Navigation.PushModalAsync(new Page1(answer));
                 await Task.Delay(1500);
                 await Navigation.PopModalAsync();
                 answerss.Text = $"Правильно: {verity++}";
@@ -45,7 +45,7 @@ namespace App5
             }
             else
             {
-                await Navigation.PushModalAsync(new Page2());
+                await Navigation.PushModalAsync(new Page2(answer));
                 await Task.Delay(1500);
                 await Navigation.PopModalAsync();
                 not_answer.Text = $"Неправильно: {no_verity++}";
