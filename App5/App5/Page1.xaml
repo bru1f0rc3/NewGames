@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.Page1">
+
+    <Grid Background="DarkGreen"
+          Opacity="0.75">
+        <Label
+               x:Name="label1"
+               FontSize="30"
+               HorizontalOptions="Center"
+               TextColor="LightGreen"
+               VerticalOptions="Center"/>
+    </Grid>
+    
+</ContentPage>

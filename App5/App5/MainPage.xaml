@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App5.MainPage"
+             NavigationPage.HasNavigationBar="False">
+
+    <Grid Background="Green">
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <Label Grid.Row="0"
+               Grid.RowSpan="2"
+               Grid.ColumnSpan="3"
+               Margin="120,102,0,0"
+               TextColor="WhiteSmoke"
+               x:Name="label_rand_first"
+               FontSize="24"/>
+
+        <Label Grid.Row="0"
+               Grid.RowSpan="2"
+               Grid.ColumnSpan="3"
+               Margin="150,102,0,0"
+               TextColor="WhiteSmoke"
+               Text="X"
+               FontSize="24"/>
+
+        <Label Grid.Row="0"
+               Grid.RowSpan="2"
+               Grid.ColumnSpan="3"
+               Margin="180,102,0,0"
+               TextColor="WhiteSmoke"
+               x:Name="label_rand_second"
+               FontSize="24"/>
+
+        <Entry x:Name="TbNumber"
+               Grid.Column="2"
+               Grid.ColumnSpan="2"
+               Margin="0,92,110,-8"/>
+
+        <Button Background="Black"
+                Opacity="0.4"
+                Text="Выполнить"
+                TextColor="White"
+                FontSize="10"
+                Grid.RowSpan="1"
+                Grid.Column="3"
+                Margin="0,100,5,-20"
+                Clicked="Button_Clicked"/>
+
+        <Label Text="Правильно:"
+               x:Name="answerss"
+               TextColor="WhiteSmoke"
+               FontSize="20"
+               Grid.ColumnSpan="2"
+               Grid.Row="2"
+               Margin="25,0,0,0"/>
+
+        <Label Text="Неправильно: "
+               x:Name="not_answer"
+               TextColor="WhiteSmoke"
+               FontSize="20"
+               Grid.ColumnSpan="4"
+               Grid.Row="2"
+               Margin="245,0,0,0"/>
+
+        <Label Text="Твои очки: "
+               x:Name="scores"
+               TextColor="WhiteSmoke"
+               FontSize="20"
+               Grid.ColumnSpan="3"
+               Grid.Row="2"
+               Margin="135,50,0,0"/>
+
+        <Image Grid.Column="0"
+               Grid.RowSpan="1"
+               Grid.ColumnSpan="1"
+               Margin="0,20,0,-75"
+               Source="cat.png"/>
+
+
+    </Grid>
+
+</ContentPage>
